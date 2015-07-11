@@ -22,9 +22,9 @@
 
 	<script type="text/javascript">
 
-		var guestDomain = 'mobile.opior.com';
+		var guestDomain = 'versatile-dashboard-theme.herokuapp.com';
 
-document.write('<script type="text/javascript" src="' + mobile.opior.com + '"></script>');
+document.write('<script type="text/javascript" src="' + guestDomain + '"></script>');
 		
 		function onMessage1(messageEvent) {  
 			if (messageEvent.origin == "https://" + guestDomain) {
