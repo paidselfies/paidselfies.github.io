@@ -24,7 +24,7 @@
 
 		var guestDomain = 'versatile-dashboard-theme.herokuapp.com';
 
-document.write('<script type="text/javascript" src="' + guestDomain + '"></script>');
+document.write('<script type="text/javascript" src="' + guestDomain + '/porthole.min.js"></script>');
 		
 		function onMessage1(messageEvent) {  
 			if (messageEvent.origin == "https://" + guestDomain) {
@@ -50,7 +50,7 @@ document.write('<script type="text/javascript" src="' + guestDomain + '"></scrip
 
         <div id="content">
 
-		<script>
+		<script type="text/javascript">
 
 			document.write('<iframe id="guestFrame1" name="guestFrame1" width="100%" height="100%" frameborder="0" src="https://' + guestDomain + window.location.hash + '" scrolling="no"></iframe>');
 
